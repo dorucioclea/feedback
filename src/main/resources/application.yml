@@ -1,0 +1,33 @@
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: ''
+consul.client.registration.enabled: true
+micronaut:
+  metrics:
+    export:
+      elastic:
+        enabled: true
+        step: PT1M
+    enabled: true
+  server:
+    ssl:
+      enabled: 'true'
+hazelcast.network.addresses: '[''121.0.0.1:5701'']'
+ribbon:
+  VipAddress: test
+  ServerListRefreshInterval: 2000
+elasticsearch.httpHosts: '"http://localhost:9200,http://127.0.0.2:9200"'
+acme:
+  enabled: 'true'
+  tos-agree: 'true'
+hystrix.stream.enabled: false
+nats.addresses:
+- nats://localhost:4222
+tracing:
+  jaeger:
+    enabled: true
+    sampler:
+      probability: 0.1

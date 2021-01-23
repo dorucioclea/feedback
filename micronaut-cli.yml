@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.feedback
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [acme, annotation-api, app-name, asciidoctor, assertj, cache-hazelcast, config-consul, consul, dekorate-jaeger, dekorate-kubernetes, discovery-consul, elasticsearch, gradle, graphql, http-client, jackson-xml, jdbc-hikari, junit, kotlin, kotlin-application, kotlin-extension-functions, liquibase, log4j2, management, micrometer, micrometer-elastic, multi-tenancy, nats, netflix-hystrix, netflix-ribbon, netty-server, openapi, postgres, readme, security, security-annotations, shade, testcontainers, tracing-jaeger, yaml]
